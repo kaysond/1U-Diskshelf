@@ -1,7 +1,7 @@
 (footprint "CONN-TH_SATA7-15-TYPE-A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "J2"
 		(at -0.132 -3.2004 0)
@@ -26,18 +26,6 @@
 				(thickness 0.1524)
 			)
 			(justify left top)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "88213eaf-3317-4170-b1bc-ba5d1665a8e6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -377,7 +365,8 @@
 			)
 		)
 	)
-	(model "C:/Users/Aram/Documents/aram/KiCad/1U Backplane/SATA Male.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Models/SATA 7+15 Male.step"
 		(offset
 			(xyz 0 0 0)
 		)

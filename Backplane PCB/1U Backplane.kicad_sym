@@ -6,20 +6,22 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
+		(property "Reference" "U1"
+			(at 2.1433 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MIC1557"
-			(at 0 0 0)
+		(property "Value" "MIC1557YM5"
+			(at 2.286 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
@@ -189,7 +191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ebay.com/itm/374693851075"
 			(at 0 0 0)
 			(effects
 				(font
@@ -716,7 +718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ebay.com/itm/404966465083"
 			(at 0 0 0)
 			(effects
 				(font
